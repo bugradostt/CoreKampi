@@ -1,0 +1,12 @@
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\bin\Debug\net5.0\ref\CoreLayer.dll
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb

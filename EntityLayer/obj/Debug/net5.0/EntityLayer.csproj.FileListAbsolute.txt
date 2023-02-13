@@ -1,0 +1,12 @@
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
