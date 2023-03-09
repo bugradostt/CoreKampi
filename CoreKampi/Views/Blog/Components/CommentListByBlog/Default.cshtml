@@ -1,0 +1,34 @@
+﻿@model List<EntityLayer.Concrete.Comment>
+
+<div class="comment-top">
+    <h4>Yorumlar</h4>
+    @if (Model.Count == 0)
+    {
+        <div class="alert alert-danger">
+            Bu bloğa henüz yorum yapılmadı. İlk yorumu siz yapın.
+        </div>
+
+    }
+    else
+    {
+        foreach (var i in Model)
+        {
+
+
+            <div class="media">
+                <img src="~/Templates/Vitrin/images/t1.jpg" alt="" class="img-fluid" />
+                <div class="media-body">
+                    <h5 class="mt-0">@i.CommentUserName</h5>
+                    <p>
+                        @i.CommentContent
+                    </p>
+
+
+                </div>
+            </div>
+
+        }
+
+    }
+
+</div>

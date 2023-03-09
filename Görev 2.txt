@@ -1,0 +1,29 @@
+Görev 2 
+*****************************************************************************************
+
+- Eager Loading , Lazy loading nedir ?
+
+Lazy Loading 
+Sayfada yer alan bir ögenin ihtiyaç duyulmadığı takdirde çağrılmaması prensibi ile çalışır yani bir nesne örneğinin gerçekten ihtiyaç duyulacağı ana kadar alınmaması ve bekletilmesi amacıyla kullanılır. Bu yöntemde veriler sorguya bağlı olarak çekilir ve veri setinin içindeki tüm dataları yüklemek yerine kullanılacağı an tekrar sorgu atar ve veriyi çeker.
+
+Eager Loading
+Lazy Loading’in tam tersi yönde çalışır. Kullanacağımız nesneleri, nesnenin ihtiyaç anından çok önce oluşturulur ve bekletir. Eager loading Linq sorgusu çalıştırıldığında verilerin tamamını yükler ve hafızaya alır.
+
+*****************************************************************************************
+
+- View Component ile Partial View Arasındaki Farklar Nedir ?
+
+Basit bir MVC yapısı düşünelim. Kullanıcıdan bir istek yapıldığını düşünürsek bunu önce Controller karşılar daha sonra bir veri taşıyacaksa buna Modelden ulaşır ve en nihayetinde View a ulaştırır. Eğer birde PartialView varsa en son olarak ona ulaşır. Yani kısacası PartialView üzerinde bir veri göstermek istediğimizde en basit döngü bahsettiğimiz gibidir.
+ViewComponent diyor ki beni de modüler olarak parça parça kullanabilirsin fakat eğer bende bir veri göstermek istiyorsan Controller'ı hiç araya katmadan onu yormadan direkt olarak Model ile iletişime geçip veriyi gösterebilirim. İşte PartialView ve ViewComponent arasındaki en temel fark budur
+
+
+
+
+
+
+
+
+
+
+
+

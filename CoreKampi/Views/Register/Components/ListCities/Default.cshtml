@@ -1,0 +1,13 @@
+﻿@model List<CoreKampi.Models.Cities>
+
+<div class="form-group col-md-6">
+    <label for="exampleInputPassword2 mb-2">Şehir</label>
+    <select class="form-control" >
+            <option >Seçiniz</option>
+        @foreach (var i in Model)
+        {
+            <option value="@i.CitiesCode">@i.CitiesName</option>
+        }
+    </select>
+</div>
+
