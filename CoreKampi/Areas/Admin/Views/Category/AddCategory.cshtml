@@ -1,0 +1,63 @@
+﻿@model EntityLayer.Concrete.Category
+
+@{
+    Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
+    ViewData["Başlik"] = "Kategori Ekle";
+}
+
+<div class="row">
+
+    <div class="col-lg-12">
+        <div class="ibox ">
+            <div class="ibox-title">
+                <h5> Kategori Ekle </h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="ibox-content">
+
+                <form  method="post">
+
+
+                    <div class="mt-3">
+
+                        <label>Kategori Adı</label>
+                        <input type="text" name="CategoryName" value="@Html.ValueFor(x=>x.CategoryName)" placeholder="Kategori adını yazınız" class="form-control" />
+                        <span class="text-danger">
+                            @Html.ValidationMessageFor(x=>x.CategoryName)
+                        </span>
+
+                    </div>
+
+                    <div class="mt-3">
+
+                        <label>Açıklaması</label>
+                        <textarea class="form-control" name="CategoryDescription" placeholder="Açıklama yazınız...">@Html.ValueFor(x=>x.CategoryDescription)</textarea>
+                        <span class="text-danger">
+                            @Html.ValidationMessageFor(x => x.CategoryDescription)
+                        </span>
+
+                    </div>
+
+                    <div class="mt-3">
+
+                        <a class="btn btn-danger"
+                          
+                           href="/Admin/Category/Index/">İptal</a>
+                        <input type="submit"  value="Kaydet" class="btn btn-success" />
+                    </div>
+
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+

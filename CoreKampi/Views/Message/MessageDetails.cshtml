@@ -1,0 +1,38 @@
+﻿@model EntityLayer.Concrete.Message2
+
+@{
+    Layout = "~/Views/Shared/Writer/_WriterLayout.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Mesajın Detayı</h4>
+            <br />
+
+            <div>
+
+
+                <div class="form-group">
+                    <label for="exampleInputName1">Konu</label>
+                    <input type="text" disabled class="form-control" id="exampleInputName1" asp-for="MessageSubject">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail3">Gönderen</label>
+                    <input type="text" disabled class="form-control" id="exampleInputEmail3" value="@Html.ValueFor(x=>x.SenderUser.WriterName)" >
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword4">Tarih</label>
+                    <input type="text" disabled class="form-control" id="exampleInputPassword4" value="@Html.ValueFor(x=>x.MessageDate)">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleTextarea1">Mesaj Detayı</label>
+                    <textarea class="form-control" disabled id="exampleTextarea1" rows="4" asp-for="MessageDetails"></textarea>
+                </div>
+
+                <a href="/Message/Inbox/" class="btn btn-danger">Geri Dön</a>
+            </div>
+        </div>
+    </div>
+</div>

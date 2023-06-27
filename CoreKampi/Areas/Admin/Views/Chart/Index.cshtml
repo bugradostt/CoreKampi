@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
+    ViewData["Başlik"] = "Google Chart";
+}
+
+
+<div class="row">
+
+    <div class="col-md-12">
+        <div id="chartDiv" style="width:800px; height:600px">
+            <h2>
+                Burası Chart Alanıdır
+            </h2>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://www.gstatic.com/chart/loader.js"></script>
+
+<script>
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(DrawonLoad);
+
+    function DrawonLoad() {
+        $(function () {
+            $.ajax({
+                type: 'GET',
+                url: '/Admin/Chart/CategoryChart/',
+                success: function (chartsdata) {
+                    var Data = chartsdata.jsonlist;
+                    var data = new google.visualization.DataTable();
+
+                    data.addColumn('string', 'CategoryName');
+                    data.addColumn('number', 'CategoryCount');
+
+                    for (var i = 0; i < Data.length; i++) {
+                        data.addRow([Data[i].CategoryName, Data[i].CategoryCount]);
+                    }
+
+                    var chart = new google.visualization.PieChart(document.getElementById('chartDiv'));
+
+                    chart.draw(data,
+                        {
+                            title: "Google Chart BloggEdu Projesi",
+                            position: "top",
+                            fontsize: "16px"
+
+                        });
+                }
+            });
+        })
+    }
+
+</script>

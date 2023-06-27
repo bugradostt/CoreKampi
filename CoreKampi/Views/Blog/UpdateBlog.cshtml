@@ -1,0 +1,94 @@
+﻿@model EntityLayer.Concrete.Blog
+
+@{
+    Layout = "~/Views/Shared/Writer/_WriterLayout.cshtml";
+}
+
+<div class="container">
+
+    <h2>Blog Güncelle</h2>
+
+    <hr />
+
+    <div>
+        <form action="/Blog/UpdateBlog/" method="post">
+
+            <input type="text" hidden name="BlogId" value="@Html.ValueFor(x=>x.BlogId)" />
+            <input type="text" hidden name="WriterId" value="@Html.ValueFor(x=>x.WriterId)" />
+            <input type="text" hidden name="BlogStatus" value="@Html.ValueFor(x=>x.BlogStatus)" />
+            <input type="text" hidden name="BlogCreateDate" value="@Html.ValueFor(x=>x.BlogCreateDate)" />
+
+            <div class="mt-3">
+
+                <label>Blog Başlığı</label>
+                <input type="text" class="form-control" value="@Html.ValueFor(x=>x.BlogTitle)" name="BlogTitle" placeholder="Blog Başlığınız yazınız..." />
+                <span style="color:red;">
+                    @Html.ValidationMessageFor(x => x.BlogTitle)
+                </span>
+            </div>
+
+            <div class="mt-3">
+
+                <label>Blog Görseli</label>
+                <input type="text" class="form-control" value="@Html.ValueFor(x=>x.BlogImage)" name="BlogImage" placeholder="Blog Başlığınız yazınız..." />
+                <span style="color:red">
+                    @Html.ValidationMessageFor(x => x.BlogImage)
+                </span>
+            </div>
+
+            <div class="mt-3">
+
+                <label>Blog Küçük Görseli</label>
+                <input type="text" class="form-control" value="@Html.ValueFor(x=>x.BlogThumbnailImage)" name="BlogThumbnailImage" placeholder="Blog Başlığınız yazınız..." />
+
+            </div>
+
+
+            <div class="mt-3">
+
+                <label>Kategori</label>
+                <select class="form-control" name="CategoryId">
+
+                    @for (int i = 0; i < ViewBag.valuesCategory.Count; i++)
+                    {
+                        if (Html.ValueFor(x => x.CategoryId) == ViewBag.valuesCategory[i].Value)
+                        {
+
+                            <option value="@ViewBag.valuesCategory[i].Value ">@ViewBag.valuesCategory[i].Text</option>
+                        }
+                        else
+                        {
+
+                            <option selected value="@ViewBag.valuesCategory[i].Value ">@ViewBag.valuesCategory[i].Text</option>
+                        }
+
+                    }
+
+
+                </select>
+
+            </div>
+
+
+            <div class="mt-3">
+
+                <label>Blog İçeriği</label>
+                <textarea class="form-control" rows="12" name="BlogContent" placeholder="Blog Başlığınız yazınız...">@Html.ValueFor(x=>x.BlogContent)</textarea>
+
+                <span style="color:red">
+                    @Html.ValidationMessageFor(x => x.BlogContent)
+                </span>
+            </div>
+
+            <div class="mt-3">
+                <input type="submit" value="Geri Dön" class="btn btn-outline-danger"/>
+                <input type="submit" value="Güncelle" class="btn btn-warning" />
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<br />
+<br />
+

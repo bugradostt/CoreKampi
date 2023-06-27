@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\bugra\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bugra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -71,8 +71,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,18 +80,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\bugra\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bugra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,8 +125,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -136,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

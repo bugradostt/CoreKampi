@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\CoreKampi\\CoreKampi.csproj": {}
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\CoreKampi\\CoreKampi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BlogApiDemo\\BlogApiDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\BusinessLayer.csproj",
-        "projectName": "BusinessLayer",
-        "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BlogApiDemo\\BlogApiDemo.csproj",
+        "projectName": "BlogApiDemo",
+        "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BlogApiDemo\\BlogApiDemo.csproj",
         "packagesPath": "C:\\Users\\bugra\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BlogApiDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bugra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,14 +27,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj"
-              },
-              "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -47,100 +40,29 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[10.4.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\CoreKampi\\CoreKampi.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\CoreKampi\\CoreKampi.csproj",
-        "projectName": "CoreKampi",
-        "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\CoreKampi\\CoreKampi.csproj",
-        "packagesPath": "C:\\Users\\bugra\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\CoreKampi\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\bugra\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\BusinessLayer.csproj"
-              },
-              "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj"
-              },
-              "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[10.4.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.13, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
@@ -149,8 +71,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -162,18 +83,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj",
-        "projectName": "DataAccessLayer",
-        "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\bugra\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bugra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -190,8 +111,187 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj"
+              "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\CoreKampi\\CoreKampi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\CoreKampi\\CoreKampi.csproj",
+        "projectName": "CoreKampi",
+        "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\CoreKampi\\CoreKampi.csproj",
+        "packagesPath": "C:\\Users\\bugra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\CoreKampi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bugra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BlogApiDemo\\BlogApiDemo.csproj": {
+                "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BlogApiDemo\\BlogApiDemo.csproj"
+              },
+              "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.101.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\bugra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bugra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -233,8 +333,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -243,18 +342,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\bugra\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bugra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -288,8 +387,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -298,7 +396,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

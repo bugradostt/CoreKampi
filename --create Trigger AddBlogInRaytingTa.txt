@@ -1,0 +1,20 @@
+--create Trigger AddBlogInRaytingTable
+--on Blogs
+--after Insert
+--as 
+--Declare @Id int
+--select @Id = BlogId from inserted
+--Insert into BlogRaytings (BlogId, BlogTotalScore, BlogRaytingCount)
+--values (@Id , 0 ,0 )
+
+create trigger AddScoreInComment
+on Comments
+after insert
+as
+declare @Id int
+declare @Score int
+declare @RaytingCount int
+select @Id = BlogId, @Score= BlogScore from inserted
+update BlogRaytings set 
+BlogTotalScore = BlogTotalScore+@Score, BlogRaytingCount +=1
+where BlogId = @Id

@@ -1,0 +1,52 @@
+﻿@using EntityLayer.Concrete
+@model List<Message2>
+
+@{
+    Layout = "~/Views/Shared/Writer/_WriterLayout.cshtml";
+}
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<h1>Gelen Kutusu</h1>
+
+<hr />
+
+<a href="/Message/AddMessage/" class="btn btn-success">Yeni Mesaj</a>
+
+<br />
+<br />
+
+<table class="table table-striped">
+
+    <tr>
+        <th>#</th>
+        <th>Konu</th>
+        <th>Gönderen</th>
+        <th>Tarih</th>
+        <th>Görüntüle</th>
+    </tr>
+
+    @{
+        int a = 1;
+    }
+    @foreach (var i in Model)
+    {
+
+        <tr>
+            <th>@a</th>
+            <td>@i.MessageSubject</td>
+            <td>@i.SenderUser.WriterName</td>
+            <td>@i.MessageDate.ToShortDateString()</td>
+          
+            <td>
+                <a href="/Message/MessageDetails/@i.MessageId" class="btn btn-warning">Görüntüle</a>
+            </td>
+        </tr>
+
+        a++;
+
+    }
+
+</table>
+
+

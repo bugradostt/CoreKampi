@@ -7,16 +7,18 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstract
 {
-    public interface IWriterService
+    public interface IWriterService : IGenericService<Writer>
     {
-        List<Writer> ListAllWriter();
+        //List<Writer> ListAllWriter();
 
-        void AddWriter(Writer p);
+        //void AddWriter(Writer p);
 
-        void DeleteWriter(Writer p);
+        //void DeleteWriter(Writer p);
 
-        void UpdateWriter(Writer p);
+        //void UpdateWriter(Writer p);
 
-        Writer GetById(int id);
+        //Writer GetById(int id);
+
+        List<Writer> GetWriterById(int id);
     }
 }

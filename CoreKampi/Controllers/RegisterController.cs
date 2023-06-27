@@ -30,7 +30,7 @@ namespace CoreKampi.Controllers
             {
                 p.WriterStatus = true;
                 p.WriterAbout = p.WriterName + " hakkımızda...";
-                wm.AddWriter(p);
+                wm.Add(p);
                 return RedirectToAction("Index", "Blog");
             }
             else

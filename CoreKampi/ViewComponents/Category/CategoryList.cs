@@ -14,7 +14,7 @@ namespace CoreKampi.ViewComponents.Category
 
         public IViewComponentResult Invoke()
         {
-            var values = cm.ListAllCategory();
+            var values = cm.ListAll();
             return View(values);
         }
     }

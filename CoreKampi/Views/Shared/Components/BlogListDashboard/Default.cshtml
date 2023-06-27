@@ -1,0 +1,60 @@
+﻿@using EntityLayer.Concrete
+@model List<Blog> 
+
+
+<div class="row">
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Son 10 Blog</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+
+                                <th> # </th>
+                                <th> Blog Fotoğraf</th>
+                                <th> Başlık </th>
+                                <th> Kategori </th>
+                                <th> Tarih </th>
+                                <th> Detay </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{int a = 1;}
+                            @foreach (var i in Model)
+                            {
+
+                            <tr>
+                                <th>@a </th>
+                                <th>
+
+                                    <img src="@i.BlogImage" class="mr-2" alt="image">
+                                </th>
+                                <td>
+                                    @i.BlogTitle
+                                </td>
+                                <td>
+                                    <label class="badge badge-gradient-success">
+                                        @i.Category.CategoryName
+                                    </label>
+                                </td>
+                                <td> @i.BlogCreateDate.ToShortDateString() </td>
+                                <td>
+                                    <a href="/Blog/BlogDetail/@i.BlogId" class="btn btn-outline-secondary" >Detay</a>
+                                </td>
+
+                            </tr>
+
+                                a++;
+
+                            }
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

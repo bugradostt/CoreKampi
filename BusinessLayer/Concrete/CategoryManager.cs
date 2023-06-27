@@ -20,12 +20,12 @@ namespace BusinessLayer.Concrete
         }
 
 
-        public void AddCategory(Category p)
+        public void Add(Category p)
         {
             _cateroryDal.Insert(p);
         }
 
-        public void DeleteCategory(Category p)
+        public void Delete(Category p)
         {
             _cateroryDal.Delete(p);
         }
@@ -35,12 +35,12 @@ namespace BusinessLayer.Concrete
             return _cateroryDal.GetById(id);
         }
 
-        public List<Category> ListAllCategory()
+        public List<Category> ListAll()
         {
             return _cateroryDal.ListAll();
         }
 
-        public void UpdateCategory(Category p)
+        public void Update(Category p)
         {
             _cateroryDal.Update(p);
         }

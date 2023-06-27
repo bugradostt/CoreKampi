@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\CoreLayer\\CoreLayer.csproj": {}
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\CoreLayer\\CoreLayer.csproj": {}
   },
   "projects": {
-    "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\CoreLayer\\CoreLayer.csproj": {
+    "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\CoreLayer\\CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\CoreLayer\\CoreLayer.csproj",
+        "projectUniqueName": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\CoreLayer\\CoreLayer.csproj",
         "projectName": "CoreLayer",
-        "projectPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\CoreLayer\\CoreLayer.csproj",
+        "projectPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\CoreLayer\\CoreLayer.csproj",
         "packagesPath": "C:\\Users\\bugra\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\bugra\\Desktop\\Dosya\\1-Projeler\\CoreKampi\\CoreLayer\\obj\\",
+        "outputPath": "C:\\Users\\bugra\\Desktop\\1- Dosya\\1-Projeler\\CoreKampi\\CoreLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bugra\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,8 +45,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

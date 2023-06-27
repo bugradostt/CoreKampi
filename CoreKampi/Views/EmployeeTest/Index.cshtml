@@ -1,0 +1,36 @@
+﻿@using CoreKampi.Models
+@model List<Class1>
+
+@{
+    Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
+    ViewData["Başlik"] = "Excel Rapor";
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Adı Soyado</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ int a = 1;}
+        @foreach (var i in Model)
+        {
+
+            <tr>
+                <th scope="row">@a</th>
+                <td>@i.Name</td>
+                <td>Sil</td>
+                <td>Güncelle</td>
+            </tr>
+
+            a++;
+
+        }
+
+
+    </tbody>
+</table>

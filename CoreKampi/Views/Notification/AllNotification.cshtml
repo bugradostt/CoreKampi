@@ -1,0 +1,86 @@
+﻿
+
+@using EntityLayer.Concrete
+@model List<Notification>
+
+@{
+    Layout = "~/Views/Shared/Writer/_WriterLayout.cshtml";
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<h1>Bildirimler</h1>
+
+<hr />
+
+
+<br />
+
+<table class="table table-striped">
+
+    <tr>
+        <th>#</th>
+        <th>Bildirim Türü</th>
+        <th>Bildirim Detayı</th>
+        <th>Tarih</th>
+
+
+        <th></th>
+
+    </tr>
+
+    @{
+        int a = 1;
+    }
+    @foreach (var i in Model)
+    {
+
+<tr>
+    <th>@a</th>
+    <td>@i.NotificationType</td>
+    <td>@i.NotificationDetails</td>
+    <td>@i.NotificationDate.ToShortDateString()</td>
+
+
+
+    <td>
+        <!--Sil modal Butonu-->
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#Sil_@i.NotificationId">
+            Sil
+        </button>
+
+        <!--Modal-->
+        <div class="modal fade" id="Sil_@i.NotificationId" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Bildirim Sil</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Bildirimi silmek istiyor musunuz?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary " data-dismiss="modal">Vazgeç</button>
+                        <a href="/Blog/DeleteBlog/@i.NotificationId" class="btn btn-danger">Sil</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </td>
+
+
+
+</tr>
+
+        a++;
+
+    }
+
+</table>
+
+
+
+
+
+

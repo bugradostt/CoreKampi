@@ -1,0 +1,80 @@
+﻿@model EntityLayer.Concrete.Blog
+@{
+    Layout = "~/Views/Shared/Writer/_WriterLayout.cshtml";
+}
+
+<div class="container">
+
+    <h2>Yeni Blog Ekle</h2>
+
+    <hr />
+
+    <div>
+        <form action="/Blog/AddBlog/" method="post">
+
+            <div class="mt-3">
+
+                <label>Blog Başlığı</label>
+                <input type="text" class="form-control" name="BlogTitle" placeholder="Blog Başlığınız yazınız..." />
+                <span style="color:red;">
+                    @Html.ValidationMessageFor(x => x.BlogTitle)
+                </span>
+            </div>
+
+            <div class="mt-3">
+
+                <label>Blog Görseli</label>
+                <input type="text" class="form-control" name="BlogImage" placeholder="Blog Başlığınız yazınız..." />
+                <span style="color:red">
+                    @Html.ValidationMessageFor(x => x.BlogImage)
+                </span>
+            </div>
+
+            <div class="mt-3">
+
+                <label>Blog Küçük Görseli</label>
+                <input type="text" class="form-control" name="BlogThumbnailImage" placeholder="Blog Başlığınız yazınız..." />
+
+            </div>
+
+
+            <div class="mt-3">
+
+                <label>Kategori</label>
+                <select class="form-control" name="CategoryId">
+
+
+                  
+
+                    @for (int i = 0; i < ViewBag.valuesCategory.Count; i++)
+                    {
+                    <option value="@ViewBag.valuesCategory[i].Value ">@ViewBag.valuesCategory[i].Text</option>
+
+                    }
+
+
+                </select>
+
+            </div>
+
+
+            <div class="mt-3">
+
+                <label>Blog İçeriği</label>
+                <textarea class="form-control" rows="12" name="BlogContent" placeholder="Blog Başlığınız yazınız..."></textarea>
+
+                <span style="color:red">
+                    @Html.ValidationMessageFor(x => x.BlogContent)
+                </span>
+            </div>
+
+            <div class="mt-3">
+
+                <input type="submit"  value="Geri Dön" class="btn btn-outline-danger"/>
+                <input type="submit"  value="Kaydet" class="btn btn-success"/>
+               
+            </div>
+        </form>
+    </div>
+</div>
+

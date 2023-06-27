@@ -16,12 +16,12 @@ namespace BusinessLayer.Concrete
         {
             _blogDal = blogDal;
         }
-        public void AddBlog(Blog p)
+        public void Add(Blog p)
         {
             _blogDal.Insert(p);
         }
 
-        public void DeleteBlog(Blog p)
+        public void Delete(Blog p)
         {
             _blogDal.Delete(p);
         }
@@ -36,17 +36,27 @@ namespace BusinessLayer.Concrete
             return _blogDal.GetListWithCategory();
         }
 
+        public List<Blog> GetListWithCategoryByWriter(int id)
+        {
+            return _blogDal.GetListWithCategoryByWriter(id);
+        }
+
         public List<Blog> GetListBlogWithWriter(int id)
         {
             return _blogDal.ListFilter(x => x.WriterId == id);
         }
 
-        public List<Blog> ListAllBlog()
+        public List<Blog> ListAll()
         {
             return _blogDal.ListAll();
         }
 
-        public void UpdateBlog(Blog p)
+        public List<Blog> ListLast3Blog()
+        {
+            return _blogDal.ListAll().OrderByDescending(x => x.BlogId).Take(3).ToList();
+        }
+
+        public void Update(Blog p)
         {
             _blogDal.Update(p);
         }

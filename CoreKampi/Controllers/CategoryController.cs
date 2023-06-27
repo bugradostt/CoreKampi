@@ -13,7 +13,7 @@ namespace CoreKampi.Controllers
         CategoryManager cm = new CategoryManager(new EfCategoryRepository());
         public IActionResult Index()
         {
-            var values = cm.ListAllCategory().OrderByDescending(x => x.CategoryId);
+            var values = cm.ListAll().OrderByDescending(x => x.CategoryId);
             return View(values);
         }
     }

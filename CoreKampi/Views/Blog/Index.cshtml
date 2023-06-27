@@ -2,7 +2,7 @@
 @model List<Blog> 
 
 @{
-    Layout = "~/Views/Shared/_UserLayout.cshtml";
+    Layout = "~/Views/Shared/User/_UserLayout.cshtml";
 }
 
 <!--/main-->
@@ -40,7 +40,7 @@
 
                                 </ul>
                                 <h5 class="card-title">
-                                    <a href="single.html">@i.BlogTitle</a>
+                                    <a href="/Blog/BlogDetail/@i.BlogId">@i.BlogTitle</a>
                                 </h5>
                                 <p class="card-text mb-3" style="min-height:120px">
 

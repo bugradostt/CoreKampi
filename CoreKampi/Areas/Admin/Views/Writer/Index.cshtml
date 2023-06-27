@@ -1,0 +1,184 @@
+﻿@{
+    Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
+    ViewData["Başlik"] = "Yazar Listesi";
+}
+
+
+<h1>
+    Yazar Listesi
+</h1>
+
+<br />
+<button type="button" id="btngetlist" class="btn btn-light">Yazar Listesi</button>
+
+<button type="button" id="btngetbyid" class="btn btn-info">Yazar Getir</button>
+
+<button type="button" id="btnAdd" class="btn btn-success">Yazar Ekle</button>
+<button type="button" id="btnDelete" class="btn btn-danger">Yazar Sil</button>
+<button type="button" id="btnUpdate" class="btn btn-warning">Yazar Güncelle</button>
+<br />
+<br />
+<input type="text" class="form-control" id="id" placeholder="Yazar id değerini giriniz" />
+<br />
+<br />
+
+<div id="writerlist">
+    
+</div>
+
+<div id="writerget">
+   
+</div>
+
+<br />
+<br />
+
+
+
+<input type="text" class="form-control" id="txtId" placeholder="Yazar id değerini giriniz" />
+<br />
+
+<input type="text" class="form-control" id="txtName" placeholder="Yazar adını değerini giriniz" />
+
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<script>
+
+
+    const getList = () => {
+        $.ajax({
+            contentType: "applicatin/json",
+            dataType: "json",
+            type: "Get",
+            url: "/Admin/Writer/WriterList/",
+            success: (res) => {
+                let w = jQuery.parseJSON(res);
+                console.log(w);
+                let tablehtml = "<table class='table table-bordered'> <tr> <th>#</th>  <th>Yazar Adı</th> </tr>";
+
+                $.each(w, (index, value) => {
+                    tablehtml += `<tr> <td>${value.Id}</td> <td>${value.Name}</td>  </tr> `
+                });
+
+                tablehtml += "</table>";
+
+                $("#writerlist").html(tablehtml);
+
+            }
+
+        });
+    }
+
+    $("#btngetlist").click(getList);
+
+    $("#btngetbyid").click(() => {
+
+        let id = $("#id").val();
+        console.log(id);
+
+        $.ajax({
+            contentType: "application/json",
+            dataType: "json",
+            type: "Get",
+            url: "/Admin/Writer/GetWriterById/" + id,
+            success: (res) => {
+                let data = jQuery.parseJSON(res);
+                console.log(data);
+
+                let tableHtml = "<table class='table table-bordered'> <tr> <th>#</th>  <th>Yazar Adı</th> </tr>";
+
+                tableHtml += `<tr> <td>${data.Id}</td> <td>${data.Name}</td>  </tr> `;
+                tableHtml += "</table>";
+                $("#writerget").html(tableHtml);
+
+
+
+            }
+
+        });
+    });
+
+    $("#btnAdd").click(() => {
+
+        let txtId = $("#txtId").val();
+        let txtName = $("#txtName").val();
+
+        let writer = {
+            Id: txtId,
+            Name: txtName
+        };
+
+        console.log(txtId, txtName);
+
+        $.ajax({
+
+            type: "Post",
+            url: "/Admin/Writer/AddWriter/",
+            data: writer,
+            success: (res) => {
+                alert("Yazar başarılı bir şekilde eklendi.");
+                //$("#btngetlist").trigger("click");
+                getList();
+            }
+
+
+
+        });
+
+    });
+
+    const writerDelete = () => {
+        let writerId = $('#id').val();
+        //alert(writerId);
+
+        $.ajax({
+            type: "Delete",
+            dataType: "json",
+            url: "/Admin/Writer/DeleteWiter/" + writerId,
+            success: () => {
+                getList();
+            }
+
+
+
+        });
+
+
+    };
+    $("#btnDelete").click(writerDelete);
+
+
+    const writerUpdate = () => {
+        let writerId = $('#txtId').val();
+        let writerName = $('#txtName').val();
+        let writer = {
+            Id: writerId,
+            Name: writerName
+        };
+        //alert(writerId);
+
+        $.ajax({
+            type: "Put",
+            dataType: "json",
+            data: writer,
+            url: "/Admin/Writer/UpdateWriter/",
+            success: () => {
+                getList();
+            }
+
+
+
+        });
+
+
+    };
+
+    $("#btnUpdate").click(writerUpdate);
+
+
+
+
+</script>
+
