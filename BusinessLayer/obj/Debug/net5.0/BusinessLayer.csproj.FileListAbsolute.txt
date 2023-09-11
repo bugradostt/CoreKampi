@@ -17,7 +17,6 @@ C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\BusinessLayer\obj\Debug\net5.0
 C:\Users\bugra\Desktop\Dosya\1-Projeler\CoreKampi\BusinessLayer\obj\Debug\net5.0\refint\BusinessLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
-C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\bin\Debug\net5.0\DataAccessLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\bin\Debug\net5.0\EntityLayer.dll
@@ -32,3 +31,4 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\obj\Debug\net
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\BusinessLayer\obj\Debug\net5.0\refint\BusinessLayer.dll

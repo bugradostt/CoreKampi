@@ -1,0 +1,24 @@
+﻿@using CoreKampi.Controllers
+@model Class1
+
+@{
+    Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
+    ViewData["Başlik"] = "Çalışan Ekle";
+}
+
+<form class="form-group" action="/EmployeeTest/AddEmployee/" method="post">
+
+    <div class="mt-3">
+        <label>Adı Soyadı</label>
+        <input type="text" class="form-control"  asp-for="Name"/>
+
+    </div>
+
+    <div class="mt-3">
+        <a href="/EmployeeTest/Index/" class="btn btn-danger">İptal</a>
+        <input type="submit" class="btn btn-success"  value="Kaydet"/>
+
+    </div>
+
+
+</form>

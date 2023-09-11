@@ -111,7 +111,6 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\CoreKampi.runtimeconfig.json
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\CoreKampi.runtimeconfig.dev.json
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\CoreKampi.dll
-C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\ref\CoreKampi.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\CoreKampi.pdb
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\CoreKampi.Views.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\CoreKampi.Views.pdb
@@ -166,7 +165,6 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\CoreKampi.RazorAssemblyInfo.cache
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\CoreKampi.RazorAssemblyInfo.cs
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\staticwebassets\CoreKampi.StaticWebAssets.Manifest.cache
-C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\staticwebassets\CoreKampi.StaticWebAssets.xml
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\scopedcss\bundle\CoreKampi.styles.css
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\CoreKampi.TagHelpers.input.cache
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\CoreKampi.TagHelpers.output.cache
@@ -333,3 +331,11 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\BlogApiDemo.dll
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\BlogApiDemo.pdb
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\Razor\Views\EmployeeTest\Index.cshtml.g.cs
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\Razor\Views\EmployeeTest\AddEmployee.cshtml.g.cs
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\Razor\Views\EmployeeTest\EditEmployee.cshtml.g.cs
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\refint\CoreKampi.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\staticwebassets\CoreKampi.StaticWebAssets.Pack.cache
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\staticwebassets\msbuild.CoreKampi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\staticwebassets\msbuild.build.CoreKampi.props
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.CoreKampi.props
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.CoreKampi.props

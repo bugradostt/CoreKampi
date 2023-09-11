@@ -3,14 +3,16 @@
 
 @{
     Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
-    ViewData["Başlik"] = "Excel Rapor";
+    ViewData["Başlik"] = "Çalışan Listesi";
 }
+
+<a href="/EmployeeTest/AddEmployee/" class="btn btn-success">Ekle</a>
 
 <table class="table table-striped">
     <thead>
         <tr>
             <th scope="col">#</th>
-            <th scope="col">Adı Soyado</th>
+            <th scope="col">Adı Soyadı</th>
             <th scope="col"></th>
             <th scope="col"></th>
         </tr>
@@ -23,8 +25,12 @@
             <tr>
                 <th scope="row">@a</th>
                 <td>@i.Name</td>
-                <td>Sil</td>
-                <td>Güncelle</td>
+                <td>
+                    <a href="/EmployeeTest/DeleteEmployee/@i.Id" class="btn btn-danger">Sil</a>
+                </td>
+                <td>
+                    <a href="/EmployeeTest/EditEmployee/@i.Id" class="btn btn-warning">Güncelle</a>
+                </td>
             </tr>
 
             a++;
