@@ -339,3 +339,8 @@ C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\staticwebassets\msbuild.build.CoreKampi.props
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.CoreKampi.props
 C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.CoreKampi.props
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\bugra\Desktop\1- Dosya\1-Projeler\CoreKampi\CoreKampi\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
